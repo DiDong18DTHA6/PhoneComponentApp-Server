@@ -1,0 +1,30 @@
+{
+  "name": "phonecomponentapp-server",
+  "version": "1.0.0",
+  "description": "app server aplication",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiDong18DTHA6/PhoneComponentApp-Server.git"
+  },
+  "keywords": [
+    "app",
+    "server"
+  ],
+  "author": "BrainJSX",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DiDong18DTHA6/PhoneComponentApp-Server/issues"
+  },
+  "homepage": "https://github.com/DiDong18DTHA6/PhoneComponentApp-Server#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.4"
+  }
+}
