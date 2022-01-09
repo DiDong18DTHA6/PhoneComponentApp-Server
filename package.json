@@ -28,6 +28,7 @@
     "express": "^4.17.2",
     "express-formidable": "^1.2.0",
     "mongoose": "^6.1.4",
+    "nodemon": "^2.0.15",
     "query-string": "^7.0.1"
   }
 }
