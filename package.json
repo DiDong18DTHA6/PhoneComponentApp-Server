@@ -2,7 +2,7 @@
   "name": "phonecomponentapp-server",
   "version": "1.0.0",
   "engines": {
-    "node": "6.11.1"
+    "node": "v16.13.0"
   },
   "description": "app server aplication",
   "main": "index.js",
