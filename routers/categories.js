@@ -5,10 +5,11 @@ const Categories = require("../models/Categories");
 router.get("/", async (req, res) => {
   try {
     // const Category = new Categories();
-    // Category.categoryName = "Iphone";
-    // Category.image = "https://phucanhcdn.com/media/product/40799_iphone_12_pro_max_silver_ha1.jpg"
+    // Category.categoryName = "Trang Chủ";
+    // Category.image = "https://cdn-icons-png.flaticon.com/512/25/25694.png"
+    // Category.code = 1;
     // const saveList = await Category.save();
-    // console.log(saveList);
+
     const categories = await Categories.find();
     let data = {
       success: true,

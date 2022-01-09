@@ -2,8 +2,9 @@ const mongoose = require("mongoose");
 
 const CategorySchema = new mongoose.Schema(
   {
-    categoryName: {type: String},
-    image: {type: String}
+    categoryName: { type: String },
+    code: { type: Number, unique: true },
+    image: { type: String },
   },
   { timestamps: true }
 );
