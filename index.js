@@ -3,7 +3,8 @@ const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const categoriesRouter = require("./routers/categories");
 const productsRouter = require("./routers/products");
-const formidable = require("express-formidable");
+const usersRouter = require("./routers/users");
+
 
 require("dotenv").config();
 
@@ -41,6 +42,7 @@ app.use(
 //routes
 app.use("/api/category", categoriesRouter);
 app.use("/api/products", productsRouter);
+app.use("/api/users", usersRouter);
 
 let port = process.env.PORT || 8080;
 
